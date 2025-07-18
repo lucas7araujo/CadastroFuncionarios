@@ -1,3 +1,20 @@
 body{
-    background-color: aqua;
+    background-color: #f2f2f2;
+}
+
+.cadastro_titulo{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.formulario_cadastro{
+    font-family: sans-serif;
+    color: #333333;
+    background-color: #ffffff;
+    padding: 1rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 0.2rem;
 }

@@ -1,12 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tela Inicial</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    
+
+    <header class="navbar"></header>
+
+    <main class="main">
+
+        <h1 class="cadastro_titulo">Cadastro de Funcionários:</h1>
+
+        <form action="/cadastrar" class="formulario_cadastro" method="post">
+
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="matricula">Matrícula: </label>
+            <input type="text" id="matricula" name="matricula" required>
+
+            <label for="salario">Salário: </label>
+            <input type="text" id="salario" name="salario" required>
+
+            <label for="cargo">Cargo: </label>
+            <input type="text" id="cargo" name="cargo" required>
+
+            <label for="admissao">Admissão: </label>
+            <input type="date" id="admissao" name="admissao" required>
+
+            <label for="contrato">Tipo de Contrato:</label>
+            <select id="contrato" name="contrato" required>
+                <option value="">Selecione</option>
+                <option value="estagio">Estágio</option>
+                <option value="experiencia">Experiência</option>
+                <option value="contrato">Contrato</option>
+                <option value="clt">CLT</option>
+            </select>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+
+
+    </main>
+
 </body>
+
 </html>
