@@ -77,6 +77,8 @@ body {
     border-radius: 6px;
     border: 1px solid #ccc;
     outline: none;
+    font-family: 'Outfit';
+    color: #333333;
 }
 
 .formulario_botao {
