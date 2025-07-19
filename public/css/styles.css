@@ -1,20 +1,132 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cal+Sans&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body {
     background-color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.cadastro_titulo{
-    font-family: sans-serif;
+.navbar {
+    background-color: #003f7d;
+    color: #ffffff;
+    border: 1px solid #003f7d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    font-family: 'Outfit', sans-serif;
+}
+
+.navbar_titulo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.navbar_menu {
+    display: flex;
+    list-style: none;
+    gap: 0.6rem;
+}
+
+.navbar_menu li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar_menu li a:hover {
+    background-color: #0057a3;
+}
+
+.change_color{
+    color: #003f7d;
+}
+
+
+.cadastro_titulo {
     text-align: center;
+    font-size: 2rem;
+    color: #222;
+    margin: 2rem 0 1rem 0;
+    font-family: 'Outfit';
 }
 
-.formulario_cadastro{
-    font-family: sans-serif;
-    color: #333333;
+.formulario_cadastro {
     background-color: #ffffff;
-    padding: 1rem;
+    color: #333333;
+    padding: 2rem;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 100%;
+    max-width: 600px;
+    gap: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.formulario_cadastro input,
+.formulario_cadastro select {
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.formulario_botao {
+    background-color: #003f7d;
+    width: 40%;
+    color: #ffffff;
+    margin: 1.5rem auto 0 auto;
+    border: none;
+    border-radius: 6px;
+    padding: 0.6rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulario_botao:hover {
+    background-color: #0057a3;
+}
+
+.footer {
+    background-color: #003f7d;
+    color: #ffffff;
+    padding: 1rem 1rem;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 1rem;
+}
+
+.footer_conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 0.2rem;
+}
+
+.footer_texto {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.footer_menu {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+.footer_menu li a {
+    color: #ffffff;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
 }
