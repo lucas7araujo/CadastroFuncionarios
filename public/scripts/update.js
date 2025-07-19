@@ -15,7 +15,7 @@ async function carregarNomes() {
             const option = document.createElement('option');
             option.value = nome;
             option.textContent = nome;
-            selectNome.appendChild(option);
+            nomeSelecionado.appendChild(option);
         });
 
     } catch (error) {
