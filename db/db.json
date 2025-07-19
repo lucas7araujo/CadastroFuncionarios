@@ -1,0 +1,12 @@
+{
+    "funcionarios": [
+        {
+            "nome": "Lucas Araújo",
+            "matricula": "32157",
+            "cargo": "Tech Lead",
+            "salario": "42986,67",
+            "admissao": "2029/10/08",
+            "contrato": "CLT"
+        }
+    ]
+}
