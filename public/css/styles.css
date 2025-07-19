@@ -130,3 +130,35 @@ body {
     font-size: 1.5rem;
     transition: color 0.3s ease;
 }
+
+/* Pagina Read */
+/* 
+<div id="lista_funcionarios" class="lista_funcionarios">
+            <div class="card_funcionario">
+                <div class="funcinario_texto">
+                    <h2 class="funcionario_nome">Lucas Araújo</h2>
+                    <p class="funcionario_matricula">32157</p>
+                    <p class="funcionario_cargo">TECH LEAD</p>
+                    <p class="funcionario_salario">R$ 42.865,97</p>
+                    <p class="funcionario_admissao">15/10/2029</p>
+                    <p class="funcionario_contrato">CLT</p>
+                </div>
+            </div>
+        </div> */
+
+.lista_funcionarios{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 1rem;
+}
+
+.card_funcionario{
+    padding: 0.3rem;
+    font-family: 'Outfit';
+    border-bottom: solid 2px #003f7d;
+    width: 100%;
+}
