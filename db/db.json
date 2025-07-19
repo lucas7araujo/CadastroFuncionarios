@@ -1,13 +1,67 @@
 {
   "funcionarios": [
     {
-      "id": "2534",
-      "nome": "LUCAS GABRIEL ADELINO ARAUJO",
-      "matricula": "32157",
-      "salario": "21450",
-      "cargo": "DEV. PLENO",
-      "admissao": "2025-07-19",
-      "contrato": "clt"
+      "id": "6ea5",
+      "nome": "Lucas Gabriel Adelino Araújo",
+      "matricula": "70181820692",
+      "salario": "1750",
+      "cargo": "Desenvolvedor FullStack",
+      "admissao": "08/08/2025",
+      "contrato": "ESTAGIO"
+    },
+    {
+      "id": "3993",
+      "nome": "Maria Antônia",
+      "matricula": "7189106281",
+      "salario": "1980",
+      "cargo": "Desenvolvedor FullStack",
+      "admissao": "02/04/2025",
+      "contrato": "CLT"
+    },
+    {
+      "id": "a102",
+      "nome": "Carlos Eduardo Pereira",
+      "matricula": "4873291048",
+      "salario": "2300",
+      "cargo": "UX Designer",
+      "admissao": "10/01/2024",
+      "contrato": "CLT"
+    },
+    {
+      "id": "b204",
+      "nome": "Fernanda Souza Lima",
+      "matricula": "3982749011",
+      "salario": "1850",
+      "cargo": "QA Tester",
+      "admissao": "15/03/2025",
+      "contrato": "EXPERIENCIA"
+    },
+    {
+      "id": "c391",
+      "nome": "João Victor dos Santos",
+      "matricula": "9823740923",
+      "salario": "1600",
+      "cargo": "Suporte Técnico",
+      "admissao": "25/06/2025",
+      "contrato": "CONTRATO"
+    },
+    {
+      "id": "d511",
+      "nome": "Letícia Moura",
+      "matricula": "6173928475",
+      "salario": "1720",
+      "cargo": "Assistente Administrativo",
+      "admissao": "01/07/2025",
+      "contrato": "ESTAGIO"
+    },
+    {
+      "id": "6730",
+      "nome": "Charles",
+      "matricula": "1863982",
+      "salario": "23456",
+      "cargo": "UI Designer",
+      "admissao": "19/07/2025",
+      "contrato": "CLT"
     }
   ]
 }

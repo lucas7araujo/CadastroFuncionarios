@@ -14,7 +14,7 @@ formulario.addEventListener('submit', async (event) => {
         admissao: (() => {
             const partes = formulario.admissao.value.split('-');
             return `${partes[2]}/${partes[1]}/${partes[0]}`;
-        })(), contrato: formulario.contrato.value.toUpperCase()
+        })(), contrato: formulario.contrato.value.toLocaleUpperCase('pt-BR')
     };
 
     try {
