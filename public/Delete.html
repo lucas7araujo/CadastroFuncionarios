@@ -25,31 +25,28 @@
 
     <main class="main">
 
-        <h1 class="inicial_titulo">Leitura de Funcionários Cadastrados | C<span class="change_color">R</span>UD</h1>
+        <h1 class="inicial_titulo">Desligamento de Funcionários | CRU<span class="change_color">D</span></h1>
 
-        <div id="lista_funcionarios" class="lista_funcionarios">
-            <div class="card_funcionario">
-                <div class="funcinario_texto">
-                    <h2 class="funcionario_nome">Lucas Araújo</h2>
-                    <p class="funcionario_matricula"><strong>Matrícula: </strong>32157</p>
-                    <p class="funcionario_cargo"><strong>Cargo: </strong>TECH LEAD</p>
-                    <p class="funcionario_salario"><strong>Salário: </strong>R$ 42.865,97</p>
-                    <p class="funcionario_admissao"><strong>Admissão: </strong>15/10/2029</p>
-                    <p class="funcionario_contrato"><strong>Tipo de Contrato: </strong>CLT</p>
-                </div>
-            </div>
-            <div class="card_funcionario">
-                <div class="funcinario_texto">
-                    <h2 class="funcionario_nome">Charles Britto</h2>
-                    <p class="funcionario_matricula"><strong>Matrícula: </strong>157157</p>
-                    <p class="funcionario_cargo"><strong>Cargo: </strong>EDITOR OFICIAL</p>
-                    <p class="funcionario_salario"><strong>Salário: </strong>R$ 42.865,97</p>
-                    <p class="funcionario_admissao"><strong>Admissão: </strong>15/10/2029</p>
-                    <p class="funcionario_contrato"><strong>Tipo de Contrato: </strong>CLT</p>
-                </div>
-            </div>
-        </div>
+        <form action="/atualizar" class="formulario_cadastro" method="put">
 
+            <label for="nome">Nome:</label>
+            <select id="nome" name="nome" required>
+                <option value="">Selecione</option>
+                <option value="nome1">Nome 1</option>
+                <option value="nome2">Nome 2</option>
+                <option value="nome3">Nome 3</option>
+                <!-- outros nomes serão adicionados aqui via JSON -->
+            </select>
+
+            <label for="desligamento">Motivo do Desligamento: </label>
+            <input type="text" id="desligamento" name="desligamento" required>
+
+            <label for="demissao">Demissão: </label>
+            <input type="date" id="demissao" name="demissao" required>
+
+            <button type="submit" class="formulario_botao">Confirmar Desligamento</button>
+
+        </form>
     </main>
 
     <footer class="footer">
