@@ -1,12 +1,13 @@
 {
-    "funcionarios": [
-        {
-            "nome": "Lucas Araújo",
-            "matricula": "32157",
-            "cargo": "Tech Lead",
-            "salario": "42986,67",
-            "admissao": "2029/10/08",
-            "contrato": "CLT"
-        }
-    ]
+  "funcionarios": [
+    {
+      "id": "2534",
+      "nome": "LUCAS GABRIEL ADELINO ARAUJO",
+      "matricula": "32157",
+      "salario": "21450",
+      "cargo": "DEV. PLENO",
+      "admissao": "2025-07-19",
+      "contrato": "clt"
+    }
+  ]
 }
