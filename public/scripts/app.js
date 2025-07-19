@@ -11,8 +11,10 @@ formulario.addEventListener('submit', async (event) => {
         matricula: formulario.matricula.value,
         salario: formulario.salario.value,
         cargo: formulario.cargo.value,
-        admissao: formulario.admissao.value,
-        contrato: formulario.contrato.value
+        admissao: (() => {
+            const partes = formulario.admissao.value.split('-');
+            return `${partes[2]}/${partes[1]}/${partes[0]}`;
+        })(), contrato: formulario.contrato.value.toUpperCase()
     };
 
     try {
