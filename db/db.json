@@ -1,13 +1,3 @@
 {
-  "funcionarios": [
-    {
-      "id": "6ea5",
-      "nome": "Lucas Araújo",
-      "matricula": "70181820692",
-      "salario": "19879,89",
-      "cargo": "Desenvolvedor FullStack",
-      "admissao": "08/08/2025",
-      "contrato": "CLT"
-    }
-  ]
+  "funcionarios": []
 }
