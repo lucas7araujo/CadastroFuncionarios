@@ -1,3 +1,22 @@
 {
-  "funcionarios": []
+  "funcionarios": [
+    {
+      "id": "5ea8",
+      "nome": "Lucas Araújo",
+      "matricula": "32157",
+      "salario": "19650,98",
+      "cargo": "Desenvolvedor Pleno | JAVA",
+      "admissao": "20/07/2025",
+      "contrato": "CLT"
+    },
+    {
+      "id": "d74c",
+      "nome": "Carlos José",
+      "matricula": "21010",
+      "salario": "23467,98",
+      "cargo": "Desenvolvedor Sênior | JAVA | .NET",
+      "admissao": "20/06/2002",
+      "contrato": "CLT"
+    }
+  ]
 }

@@ -20,7 +20,7 @@ async function carregarFuncionarios() {
           <p class="funcionario_matricula"><strong>Matrícula: </strong>${func.matricula}</p>
           <p class="funcionario_cargo"><strong>Cargo: </strong>${func.cargo}</p>
           <p class="funcionario_salario"><strong>Salário: </strong>R$ ${func.salario}</p>
-          <p class="funcionario_admissao"><strong>Admissão: </strong>${new Date(func.admissao).toLocaleDateString()}</p>
+          <p class="funcionario_admissao"><strong>Admissão: </strong>${func.admissao}</p>
           <p class="funcionario_contrato"><strong>Tipo de Contrato: </strong>${func.contrato}</p>
         </div>
       `;
