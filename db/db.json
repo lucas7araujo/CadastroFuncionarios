@@ -4,7 +4,7 @@
       "id": "5ea8",
       "nome": "Lucas Araújo",
       "matricula": "32157",
-      "salario": "19650,98",
+      "salario": "19650,99",
       "cargo": "Desenvolvedor Pleno | JAVA",
       "admissao": "20/07/2025",
       "contrato": "CLT"
@@ -17,6 +17,15 @@
       "cargo": "Desenvolvedor Sênior | JAVA | .NET",
       "admissao": "20/06/2002",
       "contrato": "CLT"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "6e1f",
+      "nome": "Lucas Gabriel Adelino Araújo",
+      "telefone": "(31) 9969-64377",
+      "email": "lucasgabrielz2108@gmail.com",
+      "senha": "31980215875"
     }
   ]
 }
